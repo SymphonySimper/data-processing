@@ -5,7 +5,7 @@ description = "Place to read and manipulate data. Basically simpler jq, yq etc..
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "fastexcel>=0.21.0",
+    "fastexcel[polars]>=0.21.0",
     "polars>=1.44.2",
     "pyyaml>=6.0.3",
 ]
