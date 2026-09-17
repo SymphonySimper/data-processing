@@ -1,0 +1,7 @@
+[project]
+name = "data-processing"
+version = "0.1.0"
+description = "Place to read and manipulate data. Basically simpler jq, yq etc..."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
