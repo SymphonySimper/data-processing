@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data filt extensions
+*.csv
+*.json
+*.json5
+*.jsonc
+*.ods
+*.toml
+*.xls
+*.xlsb
+*.xlsm
+*.xlsx
+*.yaml
+
+# Data directories
+input/
+output/
