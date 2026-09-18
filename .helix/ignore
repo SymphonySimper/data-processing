@@ -1,0 +1,9 @@
+!input/
+!output/
+
+!*.csv
+!*.json
+!*.json5
+!*.jsonc
+!*.toml
+!*.yaml
