@@ -3,9 +3,13 @@ name = "data-processing"
 version = "0.1.0"
 description = "Place to read and manipulate data. Basically simpler jq, yq etc..."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "fastexcel[polars]>=0.21.0",
     "polars>=1.44.2",
     "pyyaml>=6.0.3",
 ]
+
+[tool.uv]
+python-preference = "only-system"
+python-downloads = "never"
