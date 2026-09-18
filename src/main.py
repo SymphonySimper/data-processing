@@ -1,6 +1,5 @@
-def main():
-    print("Hello from data-processing!")
+import polars as pl
 
+from lib import DataProcessing
 
-if __name__ == "__main__":
-    main()
+dp = DataProcessing("../input/<filename>")
